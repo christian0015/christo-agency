@@ -13,21 +13,39 @@ function App() {
 
         <div className="leftBlock">
           <div className="logo">
-            <div className="logoTextA">NEXA</div>
+            <div className="logoTextA">Christo</div>
             <div className="logoTextB">Digital Agency</div>
           </div>
 
           <div className="blockFollow">
             <h3 className="tilte">Follow us</h3>
             <div className="followText">
-              By reaching out to connect with us, you're taking the fist step 
-              toward unlocking the full potential of your online presece
+              <p>Embark on a journey with us to elevate your online presence and achieve exceptional results.</p>
             </div>
 
-            <div className="followLogo">
-              <span>tiktok</span>, <span>instagram</span>, <span>facebook</span>
+            <div className="followLogo">            
+            <a href="https://www.instagram.com/christian_tukunda" target="_blank" rel="noopener noreferrer">
+              <img src="reseaux_icons/instagram.png" alt="Instagram"></img>
+            </a>
+            <a href="https://www.tiktok.com/@christian_tukunda" target="_blank" rel="noopener noreferrer">
+              <img src="reseaux_icons/tiktok.png" alt="TikTok"></img>
+            </a>
+            <a href="https://t.me/christiantukunda" target="_blank" rel="noopener noreferrer">
+              <img src="reseaux_icons/telegram.png" alt="Telegram"></img>
+            </a>                     
+            </div>
+
+            <div className="going">
+              <a href='https://mysite-fbcd68.webflow.io/'>
+                <div className="goingS1a">Elevate Your Digital Strategy with Us
+                  <div className="goingS1b"> 
+                    <img src="arrow (1).png" alt="Description of image" ></img>
+                  </div>
+                </div> 
+              </a>           
             </div>
           </div>
+          
           
         </div>
 
@@ -45,7 +63,9 @@ function App() {
           <div className="rightTop">
             <div className="leftRight"></div>
             <div className="contactDivButton">
-            <div className="contactButton">Contact Us</div>
+            <a href='https://api.whatsapp.com/send/?phone=212713088840&text=Bonjour,%20%20Je%20suis%20int%C3%A9ress%C3%A9+par+vos+services%20de%20site web,%20je+souhaite+mener+un+projet+avec+vous.&type=phone_number&app_absent=0'>
+              <div className="contactButton">Contact Us</div>
+            </a>
           </div>
           </div>
 
