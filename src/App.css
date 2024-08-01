@@ -111,6 +111,7 @@ html,body{
   margin: 20px;
   padding: 30px 20px 20px 70px;
   border-radius: 50px;
+  border-image: 0 fill linear-gradient(transparent, rgba(0, 0, 0, 0.300));
 }
 
 header{
