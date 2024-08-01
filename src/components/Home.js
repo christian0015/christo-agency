@@ -7,14 +7,14 @@ const Home = () => {
         <h1>New Digital Experiences<span className="pointH1">.</span></h1>
         <p>Welcome to Christo, where innovation meets excellence in web design and digital transformation. <br/>
         Elevate your online presence and drive results.</p>
-        
-        <a href='https://mysite-fbcd68.webflow.io/'>
-          <div className="goingS2a">
+         
+        <div className="goingS2a">
+          <a href='https://mysite-fbcd68.webflow.io/'>
             <div className="goingS2b"> 
               <img src="arrow (2).png" alt="Description of image" ></img>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
 
       <div className="HomeRight">
